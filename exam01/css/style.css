@@ -1,0 +1,21 @@
+/* 1 */
+div{
+    border: 2px solid;
+}
+div img{
+    padding: 20px;
+}
+img{
+    width: 450px;
+    height: 500px;
+}
+a{
+    text-decoration: none;
+    font-size: 2em;
+}
+/* 2 */
+.box{
+    width: 250px;
+    height: 300px;
+    display: block;
+}
