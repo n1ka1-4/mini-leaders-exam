@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::after,*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 237, 216);
+    font-family: "figtree", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0, 162, 255);
+    padding: 20px;
+    justify-content: right;
+    border-bottom: 2px solid black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 15px;
+}
+nav li{
+    list-style-type: none;
+}
+a{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color: rgba(255, 0, 0, 0.819);
+    position: absolute;
+    left: 20px;
+}
+h1::first-letter{
+    color: red;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.container{
+    background-color: rgb(238, 201, 156);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 100px;
+    margin-top: 250px;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.food{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+.food p{
+    font-size: 1.1em;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
